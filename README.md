@@ -12,7 +12,7 @@ git clone https://github.com/maye-msft/local-pyspark-delta /path/to/local-pyspar
 docker build . -t my-pyspark:0.0.1
 ```
 
-## Build container and enter into it
+## Build container and enter  it
 
 ```text
 docker run -it -v /path/to/local-pyspark-delta:/app --name=pyspark my-pyspark:0.0.1 bash
@@ -33,7 +33,7 @@ docker commit github-local-pyspark-delta pyspark_container_image
 docker save pyspark_container_image | gzip > pyspark_container_image.tar.gz
 ```
 
-## Clone container in another machine and enter into it
+## Clone container in another machine and enter  it
 
 ```text
 docker load -i pyspark_container_image.tar.gz
