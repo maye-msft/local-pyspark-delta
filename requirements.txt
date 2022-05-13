@@ -1,0 +1,14 @@
+setuptools
+wheel
+pyspark==3.2.1
+delta-spark==1.2.1
+pytest
+pytest-cov
+dbx
+psycopg2
+mock
+python-dotenv
+pyarrow
+fastparquet
+opencensus
+opencensus-ext-azure==1.1.3
